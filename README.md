@@ -26,7 +26,7 @@ IIS Server 2019 Container for Windows - Docker App (2021)
 
 > cd iis-2019-docker-win
 
-> ddocker image build --tag iisbuilder .
+> docker image build --tag iisbuilder .
 
 > docker images
 
