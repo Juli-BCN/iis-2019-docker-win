@@ -39,4 +39,4 @@ IIS Server 2019 Container for Windows - Docker App (2021)
 (With volume created, assuming C:\volsql directory exists)
 > docker run --detach -it --name iisbuilder --hostname iisbuilder --volume c:\voliis:c:\voliis iisbuilder
 
-*When creating the website, remember to put the files in path c:\volsql
+*When creating the website folder, remember to put the files in path c:\voliis
