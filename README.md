@@ -39,7 +39,7 @@ IIS Server 2019 Container for Windows - Docker App (2021)
 (With volume created, assuming C:\voliis directory exists)
 > docker run --detach -it --name iis2019 --hostname iis2019 --volume c:\voliis:c:\voliis iis2019
 
-*When creating the website folder, remember to put the files in path c:\voliis
+*When creating the website folder, remember to put the files in path c:\voliis*
 
 *Check IP where the container is running with command*
 > docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' *container_id*
